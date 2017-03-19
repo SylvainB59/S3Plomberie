@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*COMMON RULES*/
+header, footer {
+  background-image: linear-gradient( #000 0%, #F12500, #FFF 35%, #F12500, #000 100%);
+}
+/*END OF COMMON RULES*/
+
+/*HEADER RULES*/
+
+header {
+  height: 250px;
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+}
+
+.titre {
+  height: 75%;
+}
+
+h1 {
+  padding-top: 40px;
+  font-size: 5em;
+}
+
+.titre p {
+  font-size: 3em;
+}
+
+nav li {
+  display: inline-block;
+  margin: 10px 10px;
+  padding-top: 10px;
+  width: 20%;
+  border-style: solid;
+  border-radius: 100%;
+  height: 30px;
+  background-color: black;
+}
+
+nav li:hover {
+  background-color: #F12500;
+  border-color: #F12500;
+}
+
+nav a {
+  margin: 30%;
+  color: white;
+}
+
+/*END OF HEADER RULES*/
+
+/*DECO DROITE GAUCHE*/
+
+.gauche, .droite {
+  width: 10%;
+  height: 600px;
+  background-image: linear-gradient(90deg, #000 0%, #F12500, #FFF 35%, #F12500, #000 100%);
+}
+
+.gauche {
+  float: left;
+}
+
+.droite {
+  float: right;
+}
+
+.gauche, .droite, .main {
+  display: inline-block;
+}
+/*FIN DECO DROITE GAUCHE*/
+
+/*MAIN RULES*/
+
+.main {
+  width: 80%;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.logo {
+  width: 20%;
+  height: 20%;
+  margin: 0 4%;
+}
+
+.logo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+    /*ARTICLE DU MAIN*/
+
+.presentation {
+  width: 70%;
+}
+
+.presentation h2, .presentation p {
+  margin: 30px 0;
+}
+
+.presentation, .logo, .service, .avantage {
+  display: inline-block;
+}
+
+.nom, .bonus {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.service, .avantage {
+  width: 40%;
+  margin: 40px;
+}
+
+.main ul {
+  text-align: center;
+  list-style: none;
+}
+
+.main li {
+  text-align: left;
+  margin-left: 60px;
+}
+/*FIN ARTICLE MAIN*/
+
+footer {
+  height: 60px;
+}
