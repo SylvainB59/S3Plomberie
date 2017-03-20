@@ -76,7 +76,7 @@ nav a {
 
 /*MAIN RULES*/
 
-.main {
+.main, .tarif {
   width: 80%;
   font-family: 'Orbitron', sans-serif;
 }
@@ -127,6 +127,50 @@ nav a {
 }
 /*FIN ARTICLE MAIN*/
 
+/*FOOTER*/
+
 footer {
   height: 60px;
+  text-align: center;
+}
+
+footer a {
+  margin: 0 20px;
+}
+
+/*FIN DE FOOTER*/
+
+/*TABLEAU*/
+
+.tarif {
+  display: inline-block;
+  /*background-color: grey;*/
+  text-align: center;
+}
+
+.tarif h2 {
+  margin-top: 50px;
+}
+
+.table{
+}
+
+table {
+  border-collapse: collapse;
+  /*background-color: blue;*/
+  margin: 50px auto 190px auto;
+}
+
+th, td {
+  border: 1px solid black;
+  height: 30px;
+  /*margin: 20px;*/
+  width: 200px;
+}
+
+td {
+  /*background-color: green;*/
+}
+
+tr {
 }
