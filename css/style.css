@@ -7,6 +7,12 @@
 header, footer {
   background-image: linear-gradient( #000 0%, #F12500, #FFF 35%, #F12500, #000 100%);
 }
+
+.main, .tarif, .contact {
+  width: 80%;
+  font-family: 'Orbitron', sans-serif;
+}
+
 /*END OF COMMON RULES*/
 
 /*HEADER RULES*/
@@ -76,11 +82,6 @@ nav a {
 
 /*MAIN RULES*/
 
-.main, .tarif {
-  width: 80%;
-  font-family: 'Orbitron', sans-serif;
-}
-
 .logo {
   width: 20%;
   height: 20%;
@@ -94,16 +95,16 @@ nav a {
 
     /*ARTICLE DU MAIN*/
 
+.presentation, .logo, .service, .avantage {
+  display: inline-block;
+}
+
 .presentation {
   width: 70%;
 }
 
 .presentation h2, .presentation p {
   margin: 30px 0;
-}
-
-.presentation, .logo, .service, .avantage {
-  display: inline-block;
 }
 
 .nom, .bonus {
@@ -127,6 +128,54 @@ nav a {
 }
 /*FIN ARTICLE MAIN*/
 
+
+/*TABLEAU TARIF*/
+
+.tarif {
+  display: inline-block;
+  text-align: center;
+}
+
+.tarif h2 {
+  margin-top: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 50px auto 190px auto;
+}
+
+th, td {
+  border: 1px solid black;
+  height: 30px;
+  width: 200px;
+}
+
+/*FIN TABLEAU TARIF*/
+
+/*FORMULAIR DE CONTACT*/
+
+.contact {
+  display: inline-block;
+  text-align: center;
+}
+
+.contact h2 {
+  margin: 20px ;
+}
+
+.map, .formulaire {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 6%;
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+/*FIN DE FORMULAIR DE CONTACT*/
+
 /*FOOTER*/
 
 footer {
@@ -139,38 +188,3 @@ footer a {
 }
 
 /*FIN DE FOOTER*/
-
-/*TABLEAU*/
-
-.tarif {
-  display: inline-block;
-  /*background-color: grey;*/
-  text-align: center;
-}
-
-.tarif h2 {
-  margin-top: 50px;
-}
-
-.table{
-}
-
-table {
-  border-collapse: collapse;
-  /*background-color: blue;*/
-  margin: 50px auto 190px auto;
-}
-
-th, td {
-  border: 1px solid black;
-  height: 30px;
-  /*margin: 20px;*/
-  width: 200px;
-}
-
-td {
-  /*background-color: green;*/
-}
-
-tr {
-}
