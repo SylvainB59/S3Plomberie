@@ -8,7 +8,7 @@ header, footer {
   background-image: linear-gradient( #000 0%, #F12500, #FFF 35%, #F12500, #000 100%);
 }
 
-.main, .tarif, .contact {
+.main, .tarif, .contact, .album {
   width: 80%;
   font-family: 'Orbitron', sans-serif;
 }
@@ -65,6 +65,10 @@ nav a {
   width: 10%;
   height: 600px;
   background-image: linear-gradient(90deg, #000 0%, #F12500, #FFF 35%, #F12500, #000 100%);
+}
+
+#deco {
+  height: 1170px;
 }
 
 .gauche {
@@ -167,7 +171,7 @@ th, td {
 .map, .formulaire {
   display: inline-block;
   vertical-align: middle;
-  margin: 6%;
+  margin: 5%;
 }
 
 form {
@@ -175,6 +179,33 @@ form {
 }
 
 /*FIN DE FORMULAIR DE CONTACT*/
+
+/*ALBUM*/
+
+.album, .album article {
+  text-align: center;
+  display: inline-block;
+}
+
+.album h2 {
+  margin: 30px;
+}
+
+.album article {
+  width: 40%;
+  margin: 20px;
+  vertical-align: top;
+  /*border: 1px solid;*/
+}
+
+.album figure {
+  max-width: 100%;
+}
+
+.album img {
+  width: 100%;
+}
+/*ALBUM*/
 
 /*FOOTER*/
 
